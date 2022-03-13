@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationDots, SocialMedia } from '../components';
 
-const AppWrap = (Component, idName, isCopyright, classNames) =>
+const AppWrap = (Component, idName, classNames, isCopyright) =>
   function HOC() {
     return (
       <div id={idName} className={`app__container ${classNames}`}>
