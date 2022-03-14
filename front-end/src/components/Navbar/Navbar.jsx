@@ -39,7 +39,7 @@ const Navbar = () => {
                 'about',
                 'work',
                 'skills',
-                'testimonails',
+                'testimonials',
                 'contact',
               ].map((item) => (
                 <li key={item}>
